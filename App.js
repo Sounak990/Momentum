@@ -15,15 +15,7 @@ import { BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, Legend, Resp
 
 // --- Firebase Configuration ---
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyDuKUXjgDdnSnWJrvHTp8QZ0SUInqFtW20",
-  authDomain: "my-habit-tracker-ca41a.firebaseapp.com",
-  projectId: "my-habit-tracker-ca41a",
-  storageBucket: "my-habit-tracker-ca41a.firebasestorage.app",
-  messagingSenderId: "863440868314",
-  appId: "1:863440868314:web:87c20d4e0c75971642a6e3",
-  measurementId: "G-KN2Q787N6S"
-};
+
 // --- Firebase Initialization ---
 // Initialize Firebase services for the application.
 const app = initializeApp(firebaseConfig);
